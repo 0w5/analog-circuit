@@ -118,7 +118,7 @@ Specifications
 |                      | Minimum     | Typical     | Maximum | Note                                    | 
 | -------------------- | ----------- | ----------- | ------- | --------------------------------------- | 
 | Input IREF current   | -           | 18 μA        | -       | Reduced target current from 30 uA in v2        | 
-| Open-loop gain       | 65 dB       | 75 dB       |         |                                         | 
+| Open-loop gain       | 65 dB       | 75 dB       |  -       |                                         | 
 | Bandwidth            | 1.8 MHz     | 2.0 MHz     | -       | 10-pF output load                       | 
 | Phase margin         | 60 deg      | 70 deg      | -       | 10-pF output load                       | 
 | Output voltage range | 0.4 ~ 1.8 V | 0.3 ~ 2.1 V | -       | Gain = +1                               | 
@@ -177,7 +177,7 @@ Specifications
 |                     | Minimum | Typical | Maximum | Note             | 
 | ------------------- | ------- | ------- | ------- | ---------------- | 
 | Output delay        | -       | 9 ns    | 10 ns   | 1-pF output load | 
-| Operating frequency | 10 MHz  | -       | -       | 1-pF output load | 
+| Operating frequency | -  | -       | 10 MHz       | 1-pF output load | 
 
 Transient waveform  
 corner: tt, temperature: 25°C, power typ.  
@@ -195,7 +195,7 @@ Specifications
 |                     | Minimum | Typical | Maximum | Note             | 
 | ------------------- | ------- | ------- | ------- | ---------------- | 
 | Output delay        | -       | 7 ns    | 9 ns    | 5-pF output load | 
-| Operating frequency | 25 MHz  |         |         | 5-pF output load | 
+| Operating frequency | -  |  -       |  25 MHz       | 5-pF output load | 
 
 Transient waveform  
 corner: tt, temperature: 25°C, power typ.  
@@ -213,7 +213,7 @@ Specifications
 |                     | Minimum | Typical | Maximum | Note             | 
 | ------------------- | ------- | ------- | ------- | ---------------- | 
 | Output delay        | -       | 5 ns    | 9 ns    | 1-pF output load | 
-| Operating frequency | 25 MHz  |         |         | 1-pF output load | 
+| Operating frequency | -  | -        |  25 MHz       | 1-pF output load | 
 
 Note that setup time and hold time are not characterized yet.
 
@@ -231,7 +231,7 @@ corner: ss, temperature: -40°C, power min.
 Specifications
 |               | Minimum | Typical | Maximum | Note | 
 | ------------- | ------- | ------- | ------- | ---- | 
-| On Resistance | 1 kΩ   |         |         |      | 
+| On Resistance | -   | 1 kΩ        | -        |      | 
 
 ### Temperature Sensor with Delta-sigma Modulator (DSMANA_v1)
 Transient waveform  
